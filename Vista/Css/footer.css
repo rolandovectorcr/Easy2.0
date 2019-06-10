@@ -1,0 +1,48 @@
+#foooter{
+    z-index: 4;
+    background-image: url(../Img/f2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.footertitle{
+    font-size: 30px;
+    color:  white;
+    padding-top: 20px;
+}
+
+.qh{
+    font-size: 14px;
+    color: #666666;
+    margin: 3px;
+}
+
+.qh2{
+    font-size: 18px;
+    color: white;
+    margin: 3px;
+}
+
+.qp{
+    font-size: 16px;
+    color: #666666;
+    margin: 5px;
+}
+
+.textareafooter{
+    color: #666666;
+    width: 100%;
+    height: 250px;
+    background-color: transparent;
+    font-family: raleway;
+    border: 0px;
+    border-bottom: 1px solid white;
+}
+.backg{
+    background-color: white;
+}
+.footertitle2{
+    font-size: 30px;
+    color:  #999999;
+    padding-top: 20px;
+}

@@ -1,0 +1,104 @@
+.imgventa{
+    width: 60px;
+}
+
+#serviciosgrande{
+    margin:  auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 100%x;
+}
+
+#ventas{
+    width: 670px;
+    display: inline-block;
+    margin-top:50px
+}
+
+#ventas img{
+    display: inline-block;
+    width: 150px;
+    height: 85px;
+    object-fit: cover;
+}
+
+#infoventa p{
+    display: inline-block;
+}
+
+
+#panel{
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s;
+    display: inline-block;
+    position: relative;
+    margin: 15px 5px;
+    cursor: pointer;   
+    box-shadow: 0px 0px 15px silver;
+}
+#panel3{
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;   
+    font-size: 14px;
+}
+
+#panel2{
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;   
+}
+
+#cancel{
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;   
+    color: #990000;
+}
+
+#contadorlikes{
+    font-size: 40px;
+    color:#990000;
+}
+#contadorlikes2{
+    font-size: 20px;
+    color:#990000;
+}
+
+#infoventa{
+    text-align: center;
+}
+
+#panel:hover{
+    -moz-box-shadow: 0px 0px 20px #ffffff; 
+    -webkit-box-shadow: 0px 0px 20px #ffffff; 
+    box-shadow: 0px 0px 3px silver;
+}
+
+#cancel:hover{
+    color: #ff3333;
+}
+#descripcionventadiv p{
+        padding: 10px;
+        
+}
+
+.tuservicio{
+    margin: 0px 100px;
+    position: relative;
+    left: 100px;
+}

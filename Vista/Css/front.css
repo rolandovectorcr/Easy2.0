@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-03-2017, 10:27:39 PM
+    Author     : MipcHP
+*/
+
+
+#front{
+    background-image: url(../Img/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all 0.5s;
+}
+#frontespecial{
+    background-image: url(../Img/x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all 0.5s;
+}
+#front:hover{
+    opacity: 0.7;
+}
+#frontespecial:hover{
+    opacity: 0.7;
+}
+#front2{
+    background-image: url(../Img/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.front2{
+    background-image: url(../Img/f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#title{
+    color: white;
+    font-size: 40px;
+}
+#subtitle{
+    color: white;
+    font-size: 25px;
+}
+#buttontitle{
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#buttontitle:hover{
+    background-color: #c5c500;
+     text-decoration: none;
+}
+#buttontitle2{
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid #666666;
+    color: #666666;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#buttontitle2:hover{
+    background-color: #c5c500;
+        text-decoration: none;
+        border: 2px solid black;
+    color: black;
+}
+@media only screen and (min-width: 768px) {
+    #title{
+        color: white;
+        font-size: 60px;
+    }
+    #subtitle{
+        color: white;
+        font-size: 40px;
+    }
+    #buttontitle{
+        font-size: 20px;
+        padding: 10px;
+        border: 2px solid white;
+        color: white;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    #buttontitle:hover{
+        background-color: #c5c500
+    }
+}

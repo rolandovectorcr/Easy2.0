@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-11-2017, 02:24:22 AM
+    Author     : MipcHP
+*/
+
+.new{
+    
+}
+
+.form__titulo{
+    font-size: 40px;
+    color: #009999;
+}
+
+.inputl{
+    background-color: transparent;
+    font-family: raleway;
+    text-align: center;
+    border: 0px;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+    border-bottom: 1px solid silver;
+}
+.inputfn{
+    font-family: raleway;
+}
+
+.termsnew{
+    
+}

@@ -1,0 +1,577 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-07-2016, 05:24:20 AM
+    Author     : MipcHP
+*/
+.botoncartas{
+    margin: 2.5px;
+    font-size: 12px;
+}
+
+#articulo{   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    position: relative;
+    margin: auto;
+
+}
+
+#articulo{
+    position: relative;
+}
+
+#articulo .contenedor2{   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    position: relative;
+    margin: 60px auto;
+
+}
+
+
+.botonvermas{
+    padding: 40px;
+    color: white;
+    background: #333333;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.botonvermas a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #adad02;
+    border-radius: 50%;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+    opacity: 0.97;
+}
+.botonvermas a:hover{
+    background-color: transparent;
+    padding: 12px;
+    border: 0px solid #fff;
+
+}
+
+.botonvermasp a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #adad02;
+    border-radius: 50%;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+    opacity: 0.97;
+}
+.botonvermasp a:hover{
+    background-color: transparent;
+    padding: 12px;
+    border: 0px solid #fff;
+
+}
+
+.botonvermasp{
+    padding: 30px;
+    color: white;
+    background: #333333;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+#megusta{
+    text-decoration: none;
+    color: #990000;
+    border-radius: 50%;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+    font-size: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+#megusta:hover{
+    text-decoration: none;
+    color:#cc0000
+}
+
+#leaf{
+    text-decoration: none;
+    color: #006666;
+    border-radius: 50%;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+    font-size: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#eliartfav{
+    text-decoration: none;
+    color: #666666;
+    border-radius: 50%;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+    font-size: 16px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#eliartfav:hover{
+    text-decoration: none;
+    color: #990000;
+}
+
+#leaf:hover{
+    text-decoration: none;
+    color: #00cccc;
+}
+
+.botonvermas p{
+    width: 400px;
+    display: inline-block;
+}
+
+.botonvermasp p{
+    width: 600px;
+    display: inline-block;
+    margin: 20px;
+}
+
+#artfavnone{
+    color:#339900;
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    margin:20px;
+
+}
+
+#artfavnone:hover{
+    color: #94dd94;
+    font-size: 30px;
+}
+
+#artfavnone2{
+    color:  #adad02;
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    margin:20px;
+
+}
+
+#artfavnone2:hover{
+    color: #cccc00;
+    font-size: 30px;
+}
+
+#artfavnone3{
+    color:  #d48817;
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    margin:20px;
+
+}
+
+#artfavnone3:hover{
+    color:#ffcf41;
+    font-size: 30px;
+}
+
+#artfavnone4{
+    color:  #009999;
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    margin:20px;
+
+}
+
+#artfavnone4:hover{
+    color:#00cccc;
+    font-size: 30px;
+}
+
+#textocatalogo{
+    font-size: 40px;
+    color: #adad02;
+    position: absolute;
+    left: 20px;
+    margin: 10px;
+}
+
+#articulo h3{
+    text-align: center;
+}
+
+#nombrecartaatras{
+    font-size: 20px;
+}
+#notacartaatras{
+    font-size: 36px;
+}
+
+.carta-container {
+    display: inline-block;
+    height: 350px;
+    margin: 40px 10px;
+    transition: all 0.5s;
+    width: 200px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.carta {
+    height: 100%;
+    width: 100%;
+}
+
+.carta .lado{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.carta .frente{
+    color: #333333;
+    height: 100%;
+    width: 100%; 
+    background: #ffffff;
+}
+
+.carta .frente img{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+
+.carta .atras{  
+    margin: auto;
+    color: #333333;
+    background: #ffffff;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.8s;
+    cursor: default;
+}
+
+.carta .atras:hover{
+    opacity: 1;
+}
+
+
+#infovendedor{
+    position: relative;
+}
+
+.carta .atras img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#infodeventa{
+    padding: 10px ;
+
+}
+
+#infodeventa h4{
+    color: #333333; }
+
+#contacto{
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s;
+    display: inline-block;
+    position: relative;
+    margin: 15px 5px;
+    cursor: pointer;   
+    box-shadow: 0px 0px 15px silver;
+    color: #990000;
+    border-radius: 50%;
+}
+
+#contacto:hover{
+    color: #cc0000;
+    -moz-box-shadow: 0px 0px 20px #ffffff; 
+    -webkit-box-shadow: 0px 0px 20px #ffffff; 
+    box-shadow: 0px 0px 3px silver;
+}
+
+#megustaelarticulo{
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s;
+    display: inline-block;
+    position: relative;
+    margin: 15px 5px;
+    cursor: pointer;   
+    box-shadow: 0px 0px 15px silver;
+    color: #990000;
+    border-radius: 50%;
+}
+
+#megustaelarticulo:hover{
+    color: #cc0000;
+    -moz-box-shadow: 0px 0px 20px #ffffff; 
+    -webkit-box-shadow: 0px 0px 20px #ffffff; 
+    box-shadow: 0px 0px 3px silver;
+}
+
+#ventaconcre{
+    color: #009999;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s;
+    display: inline-block;
+    position: relative;
+    margin: 15px 5px;
+    cursor: pointer;   
+    box-shadow: 0px 0px 15px silver;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+#ventaconcre:hover{
+    background-color: white;
+    color: #00cccc;
+    -moz-box-shadow: 0px 0px 20px #ffffff; 
+    -webkit-box-shadow: 0px 0px 20px #ffffff; 
+    box-shadow: 0px 0px 3px silver;
+}
+
+#ventaconcrespl{
+    color: #009999;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s;
+    display: inline-block;
+    position: absolute;
+    margin: 15px 5px;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;   
+    box-shadow: 0px 0px 15px silver;
+    font-size: 18px;
+}
+
+#ventaconcrespl:hover{
+    background-color: white;
+    color: #00cccc;
+    -moz-box-shadow: 0px 0px 20px #ffffff; 
+    -webkit-box-shadow: 0px 0px 20px #ffffff; 
+    box-shadow: 0px 0px 3px silver;
+}
+#precio{
+    color: #339900;
+}
+
+#ubicacion{
+    color: #009999;
+}
+
+#calidad{
+    color:#adad02;
+}
+
+#estado{
+    color: #cccc00;
+    font-size: 16px;
+}
+
+#precioa{
+    color: #339900;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#ubicaciona{
+    color:  #009999; 
+    font-size: 14px;
+    margin: 5px;
+}
+
+#calidada{
+    color: #cccc00;
+    font-size: 14px;
+    margin: 5px;
+}
+
+#categoriad{
+    color: #009999;
+}
+
+
+#env{
+    color:#d48817;
+    font-size: 14px;
+    margin: 5px;
+}
+
+#calvend{
+    color: #adad02;
+    font-size: 14px;
+    margin: 5px;
+}
+
+#ven{
+    color: #d48817;
+    font-size: 14px;
+    margin: 5px;
+}
+#categoria{
+    color: #adad02;
+}
+#coddonacion{
+    color: #339900;
+}
+
+#telefono{
+    color: #339900;
+    margin: 5px;
+}
+
+#horario{
+    color: #adad02;
+}
+
+#fecha{
+    color: #adad02;
+}
+
+#todosarti{
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    font-size: 26px;
+    color: #333333;
+    background-color: #ffffff;
+    border: 2px solid #333333;
+    transition: all 0.5s;
+    cursor: pointer;
+    height: 70px;
+    margin: 70px;
+}
+
+#todosarti:hover{
+    background-color: #eaea00;
+}
+
+.carta-containerssj {
+    display: inline-block;
+    height: 375px;
+    margin: 40px 10px;
+    transition: all 0.5s;
+    width: 225px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.cartassj {
+    height: 100%;
+    width: 100%;
+}
+
+.cartassj .ladossj{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.cartassj .frentessj{
+    color: #333333;
+    height: 100%;
+    width: 100%; 
+    background: #ffffff;
+}
+
+.cartassj .frentessj img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cartassj .atrasssj{  
+    margin: auto;
+    color: #333333;
+    background: #ffffff;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.8s;
+    cursor: default;
+}
+
+.cartassj .atrasssj:hover{
+    opacity: 1;
+}
+
+
+#infovendedor{
+    position: relative;
+}
+
+.cartassj .atrasssj img{
+     width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+#iconyes{
+    border-radius: 50%;
+    border: 1px solid #009999;
+    padding:10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s;
+    color: #333333
+    
+}
+
+#iconyes:hover{
+    color: #00cccc;
+    padding:11px;
+    border:0.5px solid #cccc00;
+}
+#iconyes2{
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s;
+    color:  white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #fff;
+    margin: 5px
+}
+
+#iconyes2:hover{
+    background-color: #009999;
+}

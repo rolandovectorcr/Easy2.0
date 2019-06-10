@@ -1,0 +1,289 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-03-2017, 10:27:28 PM
+    Author     : MipcHP
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:200);
+@import url(front.css);
+@import url(info.css);
+@import url(nav.css);
+@import url(cateindex.css);
+@import url(articulo.css);
+@import url(footer.css);
+@import url(prices.css);
+@import url(login.css);
+@import url(newuser.css);
+@import url(liked.css);
+@import url(venta.css);
+@import url(newarticle.css);
+@import url(showimg.css);
+@import url(cart.css);
+@import url(fontello.css);
+@import url(fontello-embedded.css);
+@import url(fontello-codes.css);
+
+.noborder{
+    border-radius: 0%;
+}
+
+.fbr{
+    background-color: white;
+    font-size: 16px;
+}
+
+body{
+    font-family: raleway;
+}
+
+.rale{
+    font-family: raleway;
+}
+
+
+.p{
+    width: 75px;
+    height: 75px;
+}
+
+.num{
+    font-size: 40px;color: #cccc00;
+}
+.nombuser{
+    font-size: 30px;color: #009999;
+}
+.mas{
+    font-size: 14px;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.mas:hover{
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #cccc00;
+    text-decoration: none;
+}
+.front1{
+    background-image: url(../Img/banner1.jpg);
+    background-size: cover;
+    font-size: 25px;
+    color: #333333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.front3{
+    background-image: url(../Img/banner10.jpg);
+    background-size: cover;
+    font-size: 25px;
+    color: #333333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.front4{
+    background-image: url(../Img/banner7.jpg);
+    background-size: cover;
+    font-size: 25px;
+    color: #333333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.frontl{
+    font-size: 25px;
+    color: white
+}
+.frontl2{
+    font-size: 20px;
+    color: white
+}
+
+.borderb{
+    border-bottom: 1px solid silver;
+
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    .mas{
+        font-size: 30px;
+        color: black;
+        border: 1px solid black;
+        padding: 10px;
+    }
+    .mas:hover{
+        color: black;
+        border: 1px solid black;
+        padding: 10px;
+        background-color: #cccc00;
+    }
+    .frontl{
+        font-size: 40px;
+        color: white
+    }
+    .frontl2{
+        font-size: 20px;
+        color: white
+    }
+
+}
+
+#frontuser{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#nombreuser{
+    font-size: 50px;
+    color: #666666;
+}
+
+#infous{
+    font-size: 20px;
+    color: #666666;
+}
+.fav{
+    background: #e30303; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #990000 , #e30303); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #990000, #e30303); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #990000, #e30303); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #990000 , #e30303); /* Standard syntax */
+    border: 1px solid transparent;
+}
+.fav:hover{
+    border: 1px solid transparent;
+}
+.u{
+    font-size: 12px;
+    margin: 5px
+}
+.comen{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #cccccc;
+
+}
+.comenl{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.imgcomen{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cat{
+    color: #009999;
+}
+.ar{
+    color: #cccccc;
+    transition: all 0.5s;
+}
+.ar:hover{
+    background: #003333;
+    color: white
+}
+.arq{
+    background: -webkit-linear-gradient(left, #004e4e , #003333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #004e4e, #003333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #004e4e, #003333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #004e4e , #003333); /* Standard syntax */
+}
+.catestilo{
+    color: black;
+    border:  2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin: 5px;
+    display: inline-block
+
+}
+
+.catestilo:hover{
+    background-color: #e0e000;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+#iconyes3{
+    color: #cccccc;
+    transition: all 0.5s;
+    text-decoration: none
+}
+
+#iconyes3:hover{
+    color: white
+}
+.iconaction{
+    padding: 3px;
+    color: #cccccc
+}
+.iconaction:hover{
+    color: white;
+    transition: all 0.5s;
+    text-decoration: none
+}
+.iconaction2{
+    padding: 3px;
+    color: #cccccc
+}
+.iconaction2:hover{
+    color: white;
+    transition: all 0.5s;
+    text-decoration: none
+}
+
+.dl{
+    float: left;
+}
+
+.cuadroarti{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 26px;
+}
+.articulosestrella{
+    background-image: url(../Img/banner9.jpg);
+    background-size: cover;
+    font-size: 25px;
+    color: #333333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.articulosestrella2{
+    background-image: url(../Img/artis2.jpg);
+    background-size: cover;
+    font-size: 25px;
+    color: #333333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.iconyes4{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.iconyes4:hover{
+    color: #cccc00;
+    text-decoration: none;
+    font-size: 32px;
+}

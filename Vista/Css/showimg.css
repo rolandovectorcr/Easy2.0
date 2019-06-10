@@ -1,0 +1,7 @@
+.showimg{
+    display: block;
+    height: 120px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
